@@ -1,0 +1,225 @@
+body,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI';
+	color: honeydew;
+}
+.form-section{
+	background-image: url(../images/bg-form.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	padding: 10rem 0; 
+}
+.form	{
+	width: 60%;
+	border-bottom-right-radius: 3rem;
+	border-top-left-radius: 3rem;
+	background-color: rgba(0,0,0,.6);
+}
+input{
+	width: 75%;
+	height: 3rem;
+	background:transparent;
+	margin-left: 4rem;
+	margin-bottom: 3rem;
+	display: block;
+	border: none;
+	border-bottom: 0.5px solid #d1d1d1d1;
+	outline: none; 
+}
+.form-holder{
+	width: 90%;
+	margin: 0 auto;
+}
+label{
+	font-size: 1.5rem;
+	margin: 0;
+	color: #ffffffd1
+}
+input::placeholder{
+	position: relative;
+	left: 1rem;
+}
+input::value{
+	color: whitesmoke;
+}
+.checkbox{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	top: 0.4rem;
+	margin-left: 14rem;
+}
+.nameInvalid1{
+	margin-left: 50%;
+}
+.btn{
+	position: relative;
+	left: 38%;
+	margin-top: 2rem;
+	width: 10rem;
+	background-color:rgba(179, 35, 48, 0.6);
+	color: honeydew;
+}
+a{
+	display: block;
+	float: left;
+}
+.hr-rotateted{
+	transform: rotate(110deg);
+	border: 0.4px solid #d1d1d1;
+	width: 10rem;
+}
+.hr-strght{
+	border: 0.5px solid #d1d1d1;
+	width: 15rem;
+}
+hr{
+	box-shadow:0 0 5px #d1d1d1;
+}
+.left{
+	margin-right: 21rem;
+	position: relative;
+	top: 2.4rem;
+}
+.right{
+	margin-left: 9rem;
+	position: relative;
+	bottom: 2.4rem;	
+}
+.hr-top{
+	position: relative;
+	top:1rem;
+}
+.hr-bottom{
+	position: relative;
+	bottom:1rem;
+}
+.btn:active{
+	box-shadow: 1px 5px 15px #d1d1d1;
+	transform: translateY(-5px);
+}
+
+.table-section{
+	background-image: url(../images/table-bg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: honeydew;
+	margin-top: 10rem;	
+}
+.table-section .container{
+	padding-bottom: 15rem;
+	padding-top: 10rem;
+}
+th{
+	font-size: 2rem;
+}	
+tr{
+	line-height: 5rem;
+	font-size: 1.3rem;
+}
+.tableRgba{	
+	background-color: rgba(179, 35, 48, 0.6);
+	box-shadow: 25px 25px 20px #d1d1d1;
+	top: 4rem;
+}
+.gallary .col-12 img{
+	width: 100%;
+	height: 40rem;
+}
+.col-3{
+	margin:0;
+	padding: 10px;
+}
+.gallary .col-3 img{
+	width: 100%;
+	height: 15rem;
+}
+.current{
+	width: 100%;
+	height: 40rem;
+}
+
+   /*     Gallary Fase In Animation         */
+
+
+@keyframes fadeIn{
+	to{
+		opacity: 1;
+	}
+}
+.fade-in{
+	opacity: 0;
+	animation: fadeIn 0.5s ease-in 1 forwards;
+}
+								/*__________Media Quries for Responsive page____________*/
+
+@media(max-width: 760px){
+	.form-heading-holder h1{
+		font-size: 25px;
+	}
+	hr{
+		position: relative;
+		right: 3rem;
+	}
+	.form{
+		width: 100%;
+	}
+}
+
+@media(max-width: 1060px){
+	.form{
+		width: 90%;
+	}
+}
+
+
+								/*__________Calculator____________*/
+
+.calculatorSection .inputOut,.result{
+	width: 80%;
+	height: 5rem;
+	border: none;
+	color:#d1d1d1;
+	font-weight: bold;
+	background-color: brown;
+	margin: 0;
+	transform: translateX(1rem)
+}
+.calculatorSection{
+	background: rgba(33,22,4,0.5);
+}
+.calculatorSection .btn1{
+	width: 5rem;
+	height: 4rem;
+	margin: 1rem;
+	padding: 0;
+	border: none;
+	color: #d1d1d1;
+	display: inline;
+	text-align: center;
+	background-color: rgba(179, 35, 48, 0.6);
+}
+
+
+.btn1:hover{
+	background-color: rgba(73, 70, 70, 0.6);
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
